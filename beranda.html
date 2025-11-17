@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Navbar Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="navbar">
+            <a href="#" class="nama">Toko Adnan</a>
+            <ul class="menu">
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li><a href="index.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section name="hero" id="hero">
+        <div class="hero-container">
+            <h1>Selamat Datang di Toko Adnan</h1>
+        </div>
+    </section>
+
+    <!-- TENTANG TOKO -->
+    <section name="about" id="about">
+        <div class="about-container">
+            <h2>Tentang Toko Adnan</h2>
+            <p>
+                Toko Adnan adalah toko yang menyediakan berbagai kebutuhan harian dengan harga terjangkau.
+                Mulai dari sembako, peralatan rumah tangga, hingga berbagai keperluan lainnya tersedia lengkap
+                dan berkualitas. Dengan pelayanan ramah dan cepat, kami selalu siap membantu memenuhi kebutuhan Anda.
+            </p>
+        </div>
+    </section>
+
+    <!-- PRODUK -->
+    <section name="products" id="products">
+        <h2>Produk Kami</h2>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="img/beras.jpg" alt="Beras">
+                <h3>Beras Premium</h3>
+                <p>Beras berkualitas tinggi dengan tekstur pulen dan harum.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/minyak.jpg" alt="Minyak">
+                <h3>Minyak Goreng</h3>
+                <p>Minyak goreng kemasan yang sehat dan jernih.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/gula.jpg" alt="Gula">
+                <h3>Gula Putih</h3>
+                <p>Gula pasir murni cocok untuk berbagai kebutuhan dapur.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/telor.jpg" alt="Telur">
+                <h3>Telur Ayam</h3>
+                <p>Telur ayam fresh kualitas terbaik.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/teh.jpg" alt="Telur">
+                <h3>Teh</h3>
+                <p>Teh alami dengan kualitas terbaik.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/mie.jpg" alt="Mie Instan">
+                <h3>Mie Instan</h3>
+                <p>Mie instan lezat dengan berbagai varian rasa kesukaan keluarga.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/penyedap.jpg" alt="Penyedap Rasa">
+                <h3>Penyedap Rasa</h3>
+                <p>Penyedap rasa berkualitas untuk masakan yang lebih nikmat.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/garam.jpg" alt="Garam">
+                <h3>Garam Dapur</h3>
+                <p>Garam dapur halus cocok untuk semua jenis masakan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section name="contact" id="contact">
+        <div class="contact-container">
+            <h2>Hubungi Toko Kami</h2>
+            <p>Silakan isi formulir di bawah ini untuk menghubungi kami.</p>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Masukkan email Anda">
+                </div>
+
+                <div class="form-group">
+                    <label for="hp">Nomor HP</label>
+                    <input type="text" id="hp" name="hp" placeholder="Masukkan nomor HP Anda">
+                </div>
+
+                <div class="form-group">
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-kirim">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
